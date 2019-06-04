@@ -15,6 +15,16 @@
 		859AC74C229946FC0049E549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859AC74A229946FC0049E549 /* LaunchScreen.storyboard */; };
 		859AC757229946FD0049E549 /* WorkoverCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC756229946FD0049E549 /* WorkoverCalcTests.swift */; };
 		859AC762229946FD0049E549 /* WorkoverCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC761229946FD0049E549 /* WorkoverCalcUITests.swift */; };
+		859AC784229AB72A0049E549 /* A_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC783229AB72A0049E549 /* A_ViewController.swift */; };
+		859AC786229BE1130049E549 /* B_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC785229BE1130049E549 /* B_ViewController.swift */; };
+		859AC788229BE1880049E549 /* C_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC787229BE1880049E549 /* C_ViewController.swift */; };
+		859AC78A229BE2330049E549 /* D_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC789229BE2330049E549 /* D_ViewController.swift */; };
+		859AC78C229BE2670049E549 /* E_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC78B229BE2670049E549 /* E_ViewController.swift */; };
+		859AC78E229BE2A20049E549 /* F_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC78D229BE2A20049E549 /* F_ViewController.swift */; };
+		859AC790229BE2B60049E549 /* G_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC78F229BE2B60049E549 /* G_ViewController.swift */; };
+		859AC792229BE2CE0049E549 /* H_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC791229BE2CE0049E549 /* H_ViewController.swift */; };
+		859AC794229BE2FA0049E549 /* I_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC793229BE2FA0049E549 /* I_ViewController.swift */; };
+		859AC796229BE3220049E549 /* J_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859AC795229BE3220049E549 /* J_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		859AC75D229946FD0049E549 /* WorkoverCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoverCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859AC761229946FD0049E549 /* WorkoverCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoverCalcUITests.swift; sourceTree = "<group>"; };
 		859AC763229946FD0049E549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859AC783229AB72A0049E549 /* A_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_ViewController.swift; sourceTree = "<group>"; };
+		859AC785229BE1130049E549 /* B_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_ViewController.swift; sourceTree = "<group>"; };
+		859AC787229BE1880049E549 /* C_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C_ViewController.swift; sourceTree = "<group>"; };
+		859AC789229BE2330049E549 /* D_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D_ViewController.swift; sourceTree = "<group>"; };
+		859AC78B229BE2670049E549 /* E_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_ViewController.swift; sourceTree = "<group>"; };
+		859AC78D229BE2A20049E549 /* F_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F_ViewController.swift; sourceTree = "<group>"; };
+		859AC78F229BE2B60049E549 /* G_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_ViewController.swift; sourceTree = "<group>"; };
+		859AC791229BE2CE0049E549 /* H_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_ViewController.swift; sourceTree = "<group>"; };
+		859AC793229BE2FA0049E549 /* I_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_ViewController.swift; sourceTree = "<group>"; };
+		859AC795229BE3220049E549 /* J_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,16 @@
 			children = (
 				859AC73E229946FB0049E549 /* AppDelegate.swift */,
 				859AC740229946FB0049E549 /* ViewController.swift */,
+				859AC783229AB72A0049E549 /* A_ViewController.swift */,
+				859AC785229BE1130049E549 /* B_ViewController.swift */,
+				859AC787229BE1880049E549 /* C_ViewController.swift */,
+				859AC789229BE2330049E549 /* D_ViewController.swift */,
+				859AC78B229BE2670049E549 /* E_ViewController.swift */,
+				859AC78D229BE2A20049E549 /* F_ViewController.swift */,
+				859AC78F229BE2B60049E549 /* G_ViewController.swift */,
+				859AC791229BE2CE0049E549 /* H_ViewController.swift */,
+				859AC793229BE2FA0049E549 /* I_ViewController.swift */,
+				859AC795229BE3220049E549 /* J_ViewController.swift */,
 				859AC742229946FB0049E549 /* Main.storyboard */,
 				859AC748229946FC0049E549 /* Assets.xcassets */,
 				859AC74A229946FC0049E549 /* LaunchScreen.storyboard */,
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859AC794229BE2FA0049E549 /* I_ViewController.swift in Sources */,
+				859AC784229AB72A0049E549 /* A_ViewController.swift in Sources */,
+				859AC792229BE2CE0049E549 /* H_ViewController.swift in Sources */,
+				859AC78A229BE2330049E549 /* D_ViewController.swift in Sources */,
 				859AC741229946FB0049E549 /* ViewController.swift in Sources */,
+				859AC796229BE3220049E549 /* J_ViewController.swift in Sources */,
+				859AC786229BE1130049E549 /* B_ViewController.swift in Sources */,
+				859AC790229BE2B60049E549 /* G_ViewController.swift in Sources */,
+				859AC78C229BE2670049E549 /* E_ViewController.swift in Sources */,
+				859AC78E229BE2A20049E549 /* F_ViewController.swift in Sources */,
 				859AC747229946FB0049E549 /* WorkoverCalc.xcdatamodeld in Sources */,
+				859AC788229BE1880049E549 /* C_ViewController.swift in Sources */,
 				859AC73F229946FB0049E549 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.WorkoverCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.WorkoverCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

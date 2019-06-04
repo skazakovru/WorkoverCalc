@@ -15,13 +15,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        names = ["Tubing/casing communication TVD", "Second", "Third", "Fourth", "Sixth", "Seventh", "Eighth", "Nineth", "Tenth"]
+        names = ["Tubing/casing communication TVD", "KWM from BHPG/SGS survey", "KWM from SITP w/known fluid density", "Bullheading calculations", "Burst pressure for worn out casing", "Seventh", "Eighth", "Nineth", "Tenth"]
         segueIdentities = ["A","B","C","D","E","F","G","H","I","J"]
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")! as UITableViewCell
         cell.textLabel?.text = names[indexPath.row]
