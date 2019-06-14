@@ -10,6 +10,7 @@ import UIKit
 
 class C_ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
     @IBOutlet weak var shutInTubingPressure: UITextField!
     @IBOutlet weak var fluidDensity: UITextField!
     @IBOutlet weak var topPerfsTVD: UITextField!
@@ -20,6 +21,7 @@ class C_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        mainButton.applyDesign()
     }
     
     @IBAction func calculateButtonPressed(_ sender: Any) {
@@ -70,14 +72,5 @@ class C_ViewController: UIViewController {
     }
 }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 

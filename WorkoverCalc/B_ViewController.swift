@@ -10,6 +10,8 @@ import UIKit
 
 class B_ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
+    
     @IBOutlet weak var pressureGuageTVD: UITextField!
     
     @IBOutlet weak var recordedPressure: UITextField!
@@ -26,10 +28,10 @@ class B_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        mainButton.applyDesign()
     }
-    
+
     @IBAction func calculateButtonPressed(_ sender: Any) {
     
     if pressureGuageTVD.text == "" || recordedPressure.text == "" || topPeforationsDepth.text == "" || fluidDensity.text == "" {
@@ -82,14 +84,16 @@ class B_ViewController: UIViewController {
     }
 }
 }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension UIButton {
+    func applyDesign() {
+        self.layer.cornerRadius = self.frame.height / 2
+        self.layer.shadowColor = UIColor.darkGray.cgColor
+        self.layer.shadowRadius = 4
+        self.layer.shadowOpacity = 0.7
+        self.layer.shadowOffset = CGSize(width: 0, height: 0)
     }
-    */
+}
+
 
 

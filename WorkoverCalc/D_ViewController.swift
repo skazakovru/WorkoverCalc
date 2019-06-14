@@ -10,6 +10,7 @@ import UIKit
 
 class D_ViewController: UIViewController {
     
+    @IBOutlet weak var mainButton: UIButton!
     @IBOutlet weak var shutinTP: UITextField!
     @IBOutlet weak var topPerfsTVD: UITextField!
     @IBOutlet weak var fITEMW: UITextField!
@@ -25,7 +26,7 @@ class D_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mainButton.applyDesign()
         // Do any additional setup after loading the view.
     }
     

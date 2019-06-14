@@ -10,17 +10,17 @@ import UIKit
 
 class E_ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
+    
     @IBOutlet weak var yieldStrength: UITextField!
-    
-    @IBOutlet weak var wallThickness: UITextField!
-    
+    @IBOutlet weak var wallThickness: UITextField!    
     @IBOutlet weak var outsideDiameter: UITextField!
     
     @IBOutlet weak var ouputLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mainButton.applyDesign()
         // Do any additional setup after loading the view.
     }
     
@@ -61,3 +61,4 @@ class E_ViewController: UIViewController {
     
 }
 }
+

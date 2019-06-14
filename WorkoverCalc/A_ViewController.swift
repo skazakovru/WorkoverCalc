@@ -10,7 +10,8 @@ import UIKit
 
 class A_ViewController: UIViewController {
 
-
+    @IBOutlet weak var mainButton: UIButton!
+    
     @IBOutlet weak var SITP: UITextField!
     @IBOutlet weak var SICP: UITextField!    
     @IBOutlet weak var tubingFluidDensity: UITextField!
@@ -26,7 +27,7 @@ class A_ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
+      mainButton.applyDesign()
   
     }
     
@@ -34,6 +35,7 @@ class A_ViewController: UIViewController {
     @IBAction func calculateButton(_ sender: Any) {
         if SITP.text == "" || SICP.text == "" || tubingFluidDensity.text == "" || casingFluidDensity.text == "" {
             resultLabel.text = String("Fill out all cells with valid numbers.")
+    
         } else {
             var firstValue = Double(SITP.text!)
             var secondValue = Double(SICP.text!)
@@ -67,7 +69,7 @@ class A_ViewController: UIViewController {
             
             if firstValue != nil && secondValue != nil && thirdValue != nil && fourthValue != nil {
                 
-                let outputValue1 = Double((firstValue! - secondValue!)/(0.052 * (fourthValue! - thirdValue!)))
+                let outputValue1 = Double((secondValue! - firstValue!)/(0.052 * (thirdValue! - fourthValue!)))
                 
                 let outputValue2 = Double((outputValue1) / 3.281)
                 
@@ -79,7 +81,7 @@ class A_ViewController: UIViewController {
     }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }
-    }
+}
     
     /*
     // MARK: - Navigation

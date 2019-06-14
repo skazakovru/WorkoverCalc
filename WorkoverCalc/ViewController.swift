@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        names = ["Tubing/casing communication TVD", "KWM from BHPG/SGS survey", "KWM from SITP w/known fluid density", "Bullheading calculations", "Burst pressure for worn out casing", "Seventh", "Eighth", "Nineth", "Tenth"]
+        names = ["Tubing/casing Communication TVD", "KWM from BHPG/SGS survey", "KWM from SITP w/known fluid density", "Bullheading", "Burst Pressure for Worn out Casing", "Casing or Tubing Pressure Test", "Mud Compression when Testing", "Surface pressure to shear pinned plug", "Minimum DC weight in BHA", "Tenth"]
         segueIdentities = ["A","B","C","D","E","F","G","H","I","J"]
     }
 
@@ -25,7 +25,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")! as UITableViewCell
+        
         cell.textLabel?.text = names[indexPath.row]
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.textColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
         return cell
     }
     
