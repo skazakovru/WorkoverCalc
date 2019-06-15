@@ -14,6 +14,7 @@ func cosd(degrees: Double) -> Double {
 
 class I_ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
     @IBOutlet weak var maxBitWeight: UITextField!
     @IBOutlet weak var mudWeight: UITextField!
     @IBOutlet weak var maxInclination: UITextField!
@@ -23,7 +24,7 @@ class I_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mainButton.applyDesign()
         // Do any additional setup after loading the view.
     }
 
@@ -66,13 +67,9 @@ class I_ViewController: UIViewController {
             
             let outputValue = (firstValue! * (1 + fourthValue! / 100)) / (((65.44 - secondValue!) / 65.44) * cosd(degrees: thirdValue!))
             
-            print(cosd(degrees: thirdValue!))
             
             outputLabel.text = String (format: "Requred DC air weight: %.0f lbs", outputValue)
         }
     }
     
-    func rad2deg(_ number: Double) -> Double {
-        return number * 180 / .pi
-    }
 }

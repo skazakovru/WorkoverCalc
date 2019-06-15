@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        names = ["Tubing/casing Communication TVD", "KWM from BHPG/SGS survey", "KWM from SITP w/known fluid density", "Bullheading", "Burst Pressure for Worn out Casing", "Casing or Tubing Pressure Test", "Mud Compression when Testing", "Surface pressure to shear pinned plug", "Minimum DC weight in BHA", "Tenth"]
+        names = ["Tubing/casing Communication TVD", "KWM from BHPG/SGS survey", "KWM from SITP w/known fluid density", "Bullheading", "Burst Pressure for Worn out Casing", "Casing or Tubing Pressure Test", "Mud Compression when Testing", "Surface pressure to shear pinned plug", "Minimum DC weight in BHA", "Spacer Volume Behind Balanced Plug"]
         segueIdentities = ["A","B","C","D","E","F","G","H","I","J"]
     }
 
