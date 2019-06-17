@@ -533,7 +533,7 @@
                                 <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Standard Landing Web" translatesAutoresizingMaskIntoConstraints="NO" id="CdE-aR-e47">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone8Black" translatesAutoresizingMaskIntoConstraints="NO" id="CdE-aR-e47">
                                 <rect key="frame" x="0.0" y="397.5" width="320" height="170.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CdE-aR-e47" secondAttribute="height" multiplier="15:8" id="9A9-Nt-weJ"/>
@@ -2334,6 +2334,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Standard Landing Web" width="1200" height="700"/>
+        <image name="iphone8Black" width="1200" height="700"/>
     </resources>
 </document>
