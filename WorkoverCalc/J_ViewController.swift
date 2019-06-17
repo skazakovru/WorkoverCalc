@@ -10,6 +10,7 @@ import UIKit
 
 class J_ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
     @IBOutlet weak var spacerAhead: UITextField!
     @IBOutlet weak var workstringID: UITextField!
     @IBOutlet weak var workstringOD: UITextField!
@@ -20,7 +21,7 @@ class J_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mainButton.applyDesign()
         // Do any additional setup after loading the view.
     }
     

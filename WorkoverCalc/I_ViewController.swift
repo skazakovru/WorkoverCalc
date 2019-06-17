@@ -8,9 +8,7 @@
 
 import UIKit
 
-func cosd(degrees: Double) -> Double {
-    return cos(degrees * .pi / 180.0)
-}
+
 
 class I_ViewController: UIViewController {
 
@@ -28,6 +26,10 @@ class I_ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func cosd(degrees: Double) -> Double {
+        return cos(degrees * .pi / 180.0)
+    }
+    
     @IBAction func calculateButton(_ sender: Any) {
         
         if maxBitWeight.text == "" || mudWeight.text == "" || maxInclination.text == "" || safetyFactor.text == "" {
