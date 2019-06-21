@@ -35,7 +35,7 @@ class B_ViewController: UIViewController {
     @IBAction func calculateButtonPressed(_ sender: Any) {
     
     if pressureGuageTVD.text == "" || recordedPressure.text == "" || topPeforationsDepth.text == "" || fluidDensity.text == "" {
-    outputTextField.text = String("Check your entries!")
+    outputTextField.text = String("Check your entries, please!")
     } else {
     
     let num = NumberFormatter()
@@ -83,6 +83,9 @@ class B_ViewController: UIViewController {
     }
     }
 }
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
+    }
 }
 
 extension UIButton {

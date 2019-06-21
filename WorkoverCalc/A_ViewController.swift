@@ -34,7 +34,7 @@ class A_ViewController: UIViewController {
     
     @IBAction func calculateButton(_ sender: Any) {
         if SITP.text == "" || SICP.text == "" || tubingFluidDensity.text == "" || casingFluidDensity.text == "" {
-            resultLabel.text = String("Fill out all cells with valid numbers.")
+            resultLabel.text = String("Fill out all cells first!")
     
         } else {
             var firstValue = Double(SITP.text!)
@@ -79,7 +79,9 @@ class A_ViewController: UIViewController {
             }
         }
     }
-    @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
+
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
     }
 }
     

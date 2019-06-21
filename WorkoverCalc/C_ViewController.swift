@@ -27,7 +27,7 @@ class C_ViewController: UIViewController {
     @IBAction func calculateButtonPressed(_ sender: Any) {
         
         if shutInTubingPressure.text == "" || fluidDensity.text == "" || topPerfsTVD.text == ""  {
-            resultKWM.text = String("Check your entries!")
+            resultKWM.text = String("Check your entries please!")
         } else {
             
             let num = NumberFormatter()
@@ -69,6 +69,9 @@ class C_ViewController: UIViewController {
                 
             }
         }
+    }
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
     }
 }
 

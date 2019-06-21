@@ -29,7 +29,7 @@ class F_ViewController: UIViewController {
     
     @IBAction func calculateButton(_ sender: Any) {
         if burstOfCasing.text == "" || weakestSectionTVD.text == "" || internalFluidDensity.text == "" || externalFluidDensity.text == "" || safetyFactor.text == "" {
-            resultSurfacePressure.text = String("Fill out all cells with valid numbers.")
+            resultSurfacePressure.text = String("Fill out all cells first!")
         } else {
             var firstValue = Double(burstOfCasing.text!)
             var secondValue = Double(weakestSectionTVD.text!)

@@ -27,7 +27,7 @@ class J_ViewController: UIViewController {
     
     @IBAction func calculatePressed(_ sender: Any) {
         if spacerAhead.text == "" || workstringID.text == "" || workstringOD.text == "" || openHoleDia.text == "" || excessApplied.text == "" {
-            outputLabel.text = String("Fill out all cells first.")
+            outputLabel.text = String("Fill out all cells first!")
         } else {
             var firstValue = Double(spacerAhead.text!)
             var secondValue = Double(workstringID.text!)
@@ -72,5 +72,8 @@ class J_ViewController: UIViewController {
             outputLabel.text = String (format: "Spacer behind to balance: %.1f bbls", outputValue)
         }
     }
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
     }
+}
 

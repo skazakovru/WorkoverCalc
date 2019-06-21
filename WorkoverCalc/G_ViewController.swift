@@ -46,7 +46,7 @@ class G_ViewController: UIViewController {
     @IBAction func calculateTapped(_ sender: Any) {
         
         if mudVolumeTextField.text == "" || pressureAppliedTextField.text == "" {
-            outputValue.text = String("Check input values")
+            outputValue.text = String("Check input values!")
         } else {
             
             let num = NumberFormatter()
@@ -72,6 +72,9 @@ class G_ViewController: UIViewController {
             
             outputValue.text = String (format: "%.1f bbl", outPut)
         }
+    }
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
     }
 }
 

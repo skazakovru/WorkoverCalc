@@ -33,7 +33,7 @@ class I_ViewController: UIViewController {
     @IBAction func calculateButton(_ sender: Any) {
         
         if maxBitWeight.text == "" || mudWeight.text == "" || maxInclination.text == "" || safetyFactor.text == "" {
-            outputLabel.text = String("Fill out all cells first.")
+            outputLabel.text = String("Fill out all cells first!")
         } else {
             var firstValue = Double(maxBitWeight.text!)
             var secondValue = Double(mudWeight.text!)
@@ -74,4 +74,7 @@ class I_ViewController: UIViewController {
         }
     }
     
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
+    }
 }

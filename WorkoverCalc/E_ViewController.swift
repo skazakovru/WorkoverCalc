@@ -27,7 +27,7 @@ class E_ViewController: UIViewController {
     @IBAction func calculatePressed(_ sender: Any) {
         
         if yieldStrength.text == "" || wallThickness.text == "" || outsideDiameter.text == "" {
-            ouputLabel.text = String("Fill out all cells with valid numbers.")
+            ouputLabel.text = String("Trash in, trash out!")
         } else {
             var firstValue = Double(yieldStrength.text!)
             var secondValue = Double(wallThickness.text!)
@@ -60,5 +60,8 @@ class E_ViewController: UIViewController {
     }
     
 }
+    @IBAction func screenTapped(_ sender: Any) {
+        view.endEditing(true)
+    }
 }
 

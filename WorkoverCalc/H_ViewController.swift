@@ -32,7 +32,7 @@ class H_ViewController: UIViewController {
     @IBAction func calculateButtonTouched(_ sender: Any) {
         
         if shearRating.text == "" || pinsInstalled.text == "" || errorPerPin.text == "" || hydraustaticHead.text == "" || bottomHP.text == "" {
-            minSurPressure.text = String("Fill out all cells with valid numbers.")
+            minSurPressure.text = String("Fill out all cells first!")
         } else {
             var firstValue = Double(shearRating.text!)
             var secondValue = Double(pinsInstalled.text!)
@@ -84,4 +84,7 @@ class H_ViewController: UIViewController {
     
     }
     
+    @IBAction func gestureTapped(_ sender: Any) {
+        view.endEditing(true)
+    }
 }

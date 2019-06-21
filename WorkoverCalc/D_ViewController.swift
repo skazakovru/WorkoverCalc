@@ -32,7 +32,7 @@ class D_ViewController: UIViewController {
     
     @IBAction func calculateButtonPressed(_ sender: Any) {
         if shutinTP.text == "" || topPerfsTVD.text == "" || fITEMW.text == "" || bullheadingKWM.text == "" || formationPressureTopPerfs.text == "" {
-            initialTubingPressure.text = String("Fill out all cells with valid numbers.")
+            initialTubingPressure.text = String("Fill out all cells first!")
         } else {
             var firstValue = Double(shutinTP.text!)
             var secondValue = Double(topPerfsTVD.text!)
